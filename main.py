@@ -310,8 +310,8 @@ for letter in my_list:
 
 students = ["Norville", "Fred", "Velma", "Daphne"]
 
-for students in students:
-  print(f"Hello {students}")
+for student in students:
+  print(f"Hello {student}")
 
 
 
