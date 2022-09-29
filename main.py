@@ -282,10 +282,20 @@ for letter in my_list:
   letter_number = my_list.index(letter) + 1
   print(f"letter{letter_number}: {letter}")
 
-names = ['john','Ann','Chad','Lee']
+  my_lists = ["paul", "laura", "jacob", "louis", "julia"]
 
-for item in names:
-  print("Hello" + item)
+  for name in my_list:
+    if name.startswith("l"):
+      print(name)
+    else:
+      print("this name does not begin with l")
+
+# names = ['john','Ann','Chad','Lee']
+
+
+
+# for item in names:
+#   print("Hello" + item)
 
 
 
@@ -300,7 +310,8 @@ for item in names:
 
 students = ["Norville", "Fred", "Velma", "Daphne"]
 
-
+for students in students:
+  print(f"Hello {students}")
 
 
 
@@ -308,7 +319,10 @@ students = ["Norville", "Fred", "Velma", "Daphne"]
 # Given the following list of numbers, calculate the sum of all the numbers using For loops and store the result of the sum in a variable called sum_numbers:
 
 list_numbers = [1,5,8,7,6,8,2,5,2,6,4,8,5,9,8,3,5,4,2,5,6,4]
-# sum_numbers = 
+# sum_numbers =
+
+for list_numbers in list_numbers:
+  print()
 
 
 
